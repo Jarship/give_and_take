@@ -66,6 +66,44 @@
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
   }
+
+  .tan {
+    /* Tan: #D2B48C; 34 44% 69% */
+    /* Cologne Earth Brown: #6C3F31; 14 38% 31%  */
+    /* Espresso Color: #4E312D; 33 71% 18%  */
+    /* Milk Chocolate: #86563C; 21 38% 38%  */
+    /* White Chocolate: #EEE6D8; 38 39% 89%  */
+    /* Duron Hot Cocoa: #8A6258; 0.03 22% 44% */
+    /* Cherry Red: #D2042D; 348 96% 42% */
+
+    --background: 34 44% 69%;
+    --foreground: 33 71% 18%;
+
+    --card: 34 44% 69%;
+    --card-foreground: 33 71% 18%;
+
+    --popover: 34 44% 69%;
+    --popover-foreground: 33 71% 18%;
+
+    --primary: 33 71% 18%;
+    --primary-foreground: 34 44% 69%;
+
+    --secondary: 0.03 22% 44%;
+    --secondary-foreground: 33 71% 18%;
+
+    --muted: 0.03 22% 44%;
+    --muted-foreground: 21 38% 38%;
+
+    --accent: 0.03 22% 44%;
+    --accent-foreground: 33 71% 18%;
+
+    --destructive: 62.8% 30.6%;
+    --destructive-foreground: 33 71% 18%;
+
+    --border: 0.03 22% 44%;
+    --input: 0.03 22% 44%;
+    --ring: 14 38% 31%;
+  }
 }
 
 @layer base {
