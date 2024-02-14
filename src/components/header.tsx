@@ -49,7 +49,7 @@ export function Header() {
 	return (
 		<header className="flex">
 			<div className="p-2 border-2 rounded w-fit hover:bg-accent hover:cursor-pointer mr-3">
-				<p className="uppercase font-black text-sm">H W</p>
+				<p className="uppercase font-black text-sm">R H</p>
 			</div>
 			<NavigationMenu className="items-start">
 				<NavigationMenuList>
@@ -84,7 +84,7 @@ export function Header() {
 											name="email"
 											render={({ field }) => (
 												<FormItem>
-													<FormLabel>Email</FormLabel>
+													<FormLabel className="pl-3">Email</FormLabel>
 													<FormControl>
 														<Input
 															placeholder="john@example.org"
@@ -92,7 +92,7 @@ export function Header() {
 															type="email"
 														/>
 													</FormControl>
-													<FormDescription>
+													<FormDescription className="pl-3">
 														We'll send you an email and take it from there.
 													</FormDescription>
 													<FormMessage />
@@ -106,7 +106,7 @@ export function Header() {
 						</NavigationMenuContent>
 					</NavigationMenuItem>
 				</NavigationMenuList>
-				<NavigationMenuViewport className="left-[-135px] md:left-[-225px] xl:left-[-125px]" />
+				<NavigationMenuViewport className="left-[-135px] md:left-[-245px] xl:left-[-225px]" />
 			</NavigationMenuPrimitive.Root>
 			<ThemeToggle />
 		</header>

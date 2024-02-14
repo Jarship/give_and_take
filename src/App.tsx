@@ -5,9 +5,9 @@ import { ThemeProvider } from "@/components/theme-provider";
 function App() {
 	return (
 		<ThemeProvider defaultTheme="dark">
-			<div className="flex flex-col p-5">
+			<div className="flex flex-col p-5 xl:p-8">
 				<Header />
-				<Separator className="my-2" />
+				<Separator className="mt-1.5 mb-2" />
 			</div>
 		</ThemeProvider>
 	);
